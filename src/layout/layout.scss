@@ -1,0 +1,55 @@
+@import "./_variables";
+@import "./_overrides";
+@import "normalize.css";
+
+html {
+    overflow-y: scroll;
+    background-color: #a5a5f7;
+}
+
+.layout-menu-top {
+    position: fixed;
+    max-width: 1200px;
+    min-height: 25px;
+    background-color: var(--menu-top-backgroundcolor);
+    padding: 5px 15px 5px 15px ;
+    margin: 0 auto;
+    // для фиксированного верхнего главного меню 
+    // нужно явно задать z-index, иначе при прокрутке страницы некоторые её элементы (непример, кнопки) будут поверх меню
+    z-index: 1100;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.layout-views {
+    max-width: 1200px;
+    margin: auto;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    margin-top: 70px;
+    background-color: #eeeeee;
+    color: #444444;
+    // отступ делаем в том числе для того, чтобы не появлялась полоса прокрутки снизу 
+    // при размере экрана граничащего с размерами этого элемента. 
+    // вертикальная полоса всегда включена, она имеет толщину, это влияет на появления гориз. полосы
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card {
+    background: var(--surface-e);
+    padding: 2rem;
+    -webkit-box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+    border-radius: 4px;
+    margin-bottom: 2rem;
+}
+
+.textarea-width-100 {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.text-decoration-none {
+    text-decoration: none;
+   }

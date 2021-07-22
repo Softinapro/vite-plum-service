@@ -1,0 +1,14 @@
+{
+	"stRecipient": {
+		"stRecipientName": "888",
+		"stRecipientINN": "88888888888",
+		"stRecipientAddress": "",
+		"stRecipientContacts": ""
+	},
+	"actRecipientInfo": {
+		"actRecipientName": "ИП Иванов С. А.",
+		"actRecipientINN": "",
+		"actRecipientAddress": "",
+		"actRecipientContacts": ""
+	}
+}
