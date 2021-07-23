@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Start from '../views/Start.vue'
-import Act from '../views/Act.vue'
-import Sticker from '../views/Sticker.vue'
+import CableMain from '../views/CableMain.vue'
+import CableSmall from '../views/CableSmall.vue'
 
 const routes = [
   {
@@ -10,14 +10,14 @@ const routes = [
     component: Start
   },
   {
-    path: '/act',
-    name: 'Act',
-    component: Act
+    path: '/cable_main',
+    name: 'CableMain',
+    component: CableMain
   },
   {
-    path: '/sticker',
-    name: 'Sticker',    
-    component: Sticker
+    path: '/cable_small',
+    name: 'CableSmall',    
+    component: CableSmall
   }
 ]
 

@@ -18,6 +18,7 @@ import InputText from 'primevue/inputtext'
 
 import Menu from 'primevue/menu'
 import Textarea from 'primevue/textarea'
+import Slider from 'primevue/slider'
 
 import awesome from './awesome/awesome'
 import ToastService from 'primevue/toastservice'
@@ -36,6 +37,7 @@ app.component('Button', Button);
 app.component('InputText', InputText);
 app.component('Menu', Menu);
 app.component('Textarea', Textarea);
+app.component('Slider', Slider);
 app.component('Toast', Toast);
 
 // можно использовать компоненты типа <font-awesome-icon icon="user-secret" />, только выбрать нужную icon

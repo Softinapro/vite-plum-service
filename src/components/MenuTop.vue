@@ -1,6 +1,6 @@
 <template>
   <div class="p-grid">
-      <div class="p-col-6 p-sm-4 p-md-3">
+      <div class="p-col-10 p-sm-10 p-md-10">
         <router-link to="/">
           <img
             alt="logo"
@@ -9,19 +9,16 @@
             class="p-mr-2"
           />
         </router-link>
-        <router-link to="/act" class="text-decoration-none">
-          <Button label="А" class="p-button-raised p-button-rounded p-mr-2" />
+        <router-link to="/cable_main" class="text-decoration-none">
+          <Button label="Тест Кабеля" class="p-button-raised p-button-rounded p-mr-2" />
         </router-link>
-        <router-link to="/sticker" class="text-decoration-none">
-          <Button label="Н" class="p-button-raised p-button-rounded" />
+        <router-link to="/cable_small" class="text-decoration-none">
+          <Button label="Мини Тест" class="p-button-raised p-button-rounded" />
         </router-link>
       </div>
 
-      <div class="p-col-3 p-sm-4 p-md-6">
-        <MenuTopFile />
-      </div>
-
-      <div class="p-col-3 p-sm-4 p-md-3 p-d-flex">
+      
+      <div class="p-col-2 p-sm-2 p-md-2 p-d-flex">
         <div class="p-ml-auto">
           <MenuTopMore />
         </div>
@@ -30,12 +27,11 @@
 </template>
 
 <script>
-import MenuTopFile from "./MenuTopFile.vue";
+
 import MenuTopMore from "./MenuTopMore.vue";
 export default {
   name: "MenuTop",
-  components: {
-    MenuTopFile,
+  components: {    
     MenuTopMore,
   },
 };

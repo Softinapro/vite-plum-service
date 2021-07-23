@@ -4,14 +4,14 @@
 
 html {
     overflow-y: scroll;
-    background-color: #a5a5f7;
+    background-color: var(--backgroundcolor-html);
 }
 
 .layout-menu-top {
     position: fixed;
     max-width: 1200px;
     min-height: 25px;
-    background-color: var(--menu-top-backgroundcolor);
+    background-color: var(--backgroundcolor-menu-top);
     padding: 5px 15px 5px 15px ;
     margin: 0 auto;
     // для фиксированного верхнего главного меню 
@@ -27,7 +27,7 @@ html {
     margin: auto;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     margin-top: 70px;
-    background-color: #eeeeee;
+    background-color: var(--backgroundcolor-views);
     color: #444444;
     // отступ делаем в том числе для того, чтобы не появлялась полоса прокрутки снизу 
     // при размере экрана граничащего с размерами этого элемента. 
